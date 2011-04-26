@@ -1,3 +1,3 @@
 # ROR Tutorial
 
-ROR tutorial
+ROR tutorial by Michael Hartl
