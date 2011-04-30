@@ -13,4 +13,5 @@ gem 'sqlite3'
 	group :test do 
 		gem 'rspec', '2.6.0.rc2' 
 		gem 'webrat', '0.7.1'
+		gem 'factory_girl_rails', '1.0'
 	end
