@@ -147,7 +147,7 @@ describe UsersController do
       get :new
       response.should have_selector("title",
                                     :content => "Sign up")
-    end 
+    end  
   end
   
   describe "POST 'create'" do
@@ -202,8 +202,8 @@ describe UsersController do
       it "should sign the user in" do
         post :create, :user => @attr
         controller.should be_signed_in      
-      end    
-    end    
+      end
+    end
   end
   
   describe "GET 'edit'" do
